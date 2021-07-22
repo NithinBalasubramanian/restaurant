@@ -45,7 +45,7 @@ const Login = ({ navigation }) => {
 
             console.log(datapayload);
 
-            await axios.post('http://goeato.infonixmedia.in/Api/login/restaurant',datapayload,{
+            await axios.post('https://goeato.com/Api/login/restaurant',datapayload,{
                 headers : {
                     'Content-Type' : 'multipart/form-data'
                 }
